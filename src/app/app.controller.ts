@@ -10,4 +10,10 @@ export class AppController {
   getHello(): string {
     return this.appService.getHello();
   }
+
+  // localhost:3000/home/exemplo
+  @Get('exemplo')
+  exemplo(): string {
+    return 'Exemplo de rota';
+  }
 }
