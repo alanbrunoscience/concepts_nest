@@ -11,3 +11,15 @@ GET {{baseUrl}}/home/hello
 # @name getGreeting
 
 GET {{baseUrl}}/home/greeting
+
+### 3. ConceptsManualController (GET - Concepts Manual)
+
+# @name getConceptsManual
+
+GET {{baseUrl}}/concepts-manual
+
+### 4. ConceptsAutoController (GET - Concepts Auto)
+
+# @name getConceptsAuto
+
+GET {{baseUrl}}/concepts-auto
