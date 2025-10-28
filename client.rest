@@ -1,23 +1,13 @@
 @baseUrl = http://localhost:3000
 
-### AppController
+### 1. AppController (GET - Hello)
 
 # @name getHello
 
 GET {{baseUrl}}/home/hello
 
+### 2. AppController (GET - Greeting)
+
 # @name getGreeting
 
 GET {{baseUrl}}/home/greeting
-
-### ConceptsManualController
-
-# @name getConceptsManual
-
-GET {{baseUrl}}/concepts-manual
-
-### ConceptsAutoController
-
-# @name getConceptsAuto
-
-GET {{baseUrl}}/concepts-auto
