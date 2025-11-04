@@ -14,6 +14,6 @@ export class AppController {
   // localhost:3000/home/greeting
   @Get('greeting')
   getGreeting(): string {
-    return 'Hello! Nice to meet you.';
+    return this.appService.getGreeting();
   }
 }
